@@ -1,0 +1,314 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.example {
+    display: -ms-grid;
+    display: grid;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
+    background: -o-linear-gradient(top, white, black);
+    background: linear-gradient(to bottom, white, black);
+}
+
+.container{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+nav{
+    position: fixed;
+    /* margin: 0; */
+    top: 0;
+    /* margin-top: 0; */
+    width: 97%;
+    margin-left: -190px;
+    background: white;
+    -webkit-box-shadow: 0px 5px #00000033;
+            box-shadow: 0px 5px #00000033;
+}
+
+nav img{
+    position: absolute;
+}
+
+.navbar{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-left: 46%;
+}
+.navbar .list-1{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    top: 0;
+    margin-top: 0;
+    list-style: none;
+   
+}
+.navbar ul .list_h{
+    margin-left: 20px;
+}
+.navbar ul .list_h ul{
+    background: white;
+    width: 115px;
+    margin-left: -30px;
+    margin-top: 15px;
+    position: absolute;
+
+}
+.navbar ul ul{
+    display: none;
+}
+.navbar ul li:hover > ul{
+    display: block;
+}
+.navbar ul .list_h ul li{
+    text-decoration: none;
+    list-style: none;
+    
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.navbar a:hover{
+   border-bottom: 3px solid gray;
+}
+ul li .bolum1{
+    position: absolute;
+
+}
+ul .list_h-tel{
+    border: 1px solid;
+    background: #00BAFC;
+    color: white;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.section-1{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 80px;
+}
+
+.play{
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 100px;
+}
+.text .link{
+    text-decoration: none;
+    color: white;
+    border: 1px solid #00BAFC;
+    background: #00BAFC;
+    width: 242px;
+    height: 40px;
+
+}
+.text p a{
+    margin-left: 40px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
+.section-2{
+    margin-top: 136px;
+    text-align: center;
+}
+.section-2 .service2{
+    margin-top: 20px;
+}
+.service{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.service img:hover{
+    -webkit-box-shadow: 0px 1px rgba(71, 71, 71, 0.226);
+            box-shadow: 0px 1px rgba(71, 71, 71, 0.226);
+
+}
+.service2 img:hover{
+    -webkit-box-shadow: 0px 1px rgba(71, 71, 71, 0.226);
+            box-shadow: 0px 1px rgba(71, 71, 71, 0.226);
+}
+.page{
+    margin-top: 40px;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #00BAFC;
+    background: #00BAFC;
+    width: 167px;
+    height: 40px;
+    border-radius: 5px;
+}
+.page p{
+    color: white;
+    margin-top: 12px;
+}
+.page2{
+    margin-top: 40px;
+    display: inline-block;
+    color: #00BAFC;
+    margin-left: 16px;
+}
+/*  */
+.section-3{
+    margin-top: 120px;
+    text-align: center;
+}
+.section-3 ul li{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    text-align: start;
+    margin-top: 48px;
+}
+.texts{
+    margin-top: 70px;
+}
+.section-3 a{
+    margin-top: 40px;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #00BAFC;
+    background: #00BAFC;
+    width: 167px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+}
+.section-3 a span{
+    display: inline-block;
+    margin-top: 12px;
+}
+.section-4{
+    text-align: center;
+    background: #00BAFC;
+    margin-top: 50px;
+    color: white;
+    height: 600px;
+}
+.section-4 h2{
+    display: inline-block;
+    margin-top: 100px;
+    color: white;
+}
+.section-4 .forms{
+    background: white;
+    display: inline-block;
+    width: 348px;
+    height: 304px;
+    margin-top: 30px;
+}
+.forms input{
+    /* margin-top: 30px; */
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background: #80808033;
+}
+.topm{
+    margin-top: 30px;
+}
+.forms select{
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background: #80808033;
+    width: 81%;
+}
+.forms a{
+    margin-top: 40px;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #00BAFC;
+    background: #00BAFC;
+    width: 167px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+}
+.forms a span{
+    display: inline-block;
+    margin-top: 12px;
+}
+footer{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    background: #000000d1;
+}
+footer ul{
+    margin-left: -37px;
+}
+footer li{
+    list-style: none;
+    margin-top: 10px;
+}
+footer  a{
+    text-decoration: none;
+}
+footer a{
+    color: white;
+}
+footer .list1{
+    color: white;
+}
+footer .list2{
+    color: white;
+}
+footer .list3{
+    color: white;
+}
+footer li a:hover{
+    color: #00BAFC;
+}
+.list3 a span{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.list3 a span:hover{
+    color: #00BAFC;
+}
+.list3 img{
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 17px;
+}
